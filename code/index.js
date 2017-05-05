@@ -21,12 +21,10 @@ app.all('*', (req, res, next) => {
 
 app.get('/', (req, res) => {
   console.log('get')
-  res.redirect("https://www.baidu.com")
 })
 
 app.post('/', (req, res) => {
   console.log('post')
-  res.redirect("https://www.baidu.com")
 })
 
 

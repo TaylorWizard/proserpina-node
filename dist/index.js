@@ -30,12 +30,10 @@ app.all('*', function (req, res, next) {
 
 app.get('/', function (req, res) {
   console.log('get');
-  res.redirect("https://www.baidu.com");
 });
 
 app.post('/', function (req, res) {
   console.log('post');
-  res.redirect("https://www.baidu.com");
 });
 
 app.listen(3000, function (req, res) {
